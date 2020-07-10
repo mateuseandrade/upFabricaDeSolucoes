@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Fábrica de Soluções</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="shortcut icon" href="assets/img/logo.ico">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Inicio Cabecalho-->
+  <header id="cabecalho">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!-- Logo-->
+      <a href="index.html">
+        <img width="100" height="80" class="navbar-brand ml-5" src="assets/img/logo.png">
+      </a>
+      <!-- Menu Hamburguer-->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#topo-menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navegação-->
+      <div class="collapse navbar-collapse" id="topo-menu">
+        <ul class="navbar-nav ml-auto mr-4">
+          <li class="nav-item pr-4"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item pr-4"><a class="nav-link" href="sobre.html">A Fábrica de Soluções®</a></li>
+          <li class="nav-item pr-4"><a class="nav-link" href="projetos.html">Projetos</a></li>
+          <li class="nav-item pr-4"><a class="nav-link" href="participantes.html">Participantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Fim Cabecalho-->
+
+  <!-- Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide mb-5 " data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <a href="projetos.html">
+        <img class="d-block img-fluid " src="./assets/img/arduino.jpg" alt="First slide">
+        <div class="carousel-caption">
+          <h3>Arduino</h3>
+          <p>
+            Projeto Microcontrolador Arduino
+          </p>
+        </div>
+        </a>
+      </div>
+      <div class="carousel-item ">
+        <a href="php.html">
+        <img class="d-block img-fluid " src="./assets/img/php.jpg" alt="Second slide">
+        <div class="carousel-caption">
+          <h3>PHP</h3>
+          <p>
+            Projeto programação em PHP
+          </p>
+        </div>
+        </a>
+      </div>
+      <div class="carousel-item ">
+        <a href="3idade.html">
+        <img class="d-block img-fluid" src="./assets/img/3idade.jpg" alt="Third slide">
+        <div class="carousel-caption">
+          <h3>Terceira idade</h3>
+          <p>
+            Curso de informática básica para terceira idade
+          </p>
+        </div>
+        </a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- /Carousel-->
+
+  <!--Container Cards-->
+  <div class="container">
+    <!--Row -->
+    <div class="row justify-content-around card-columns">
+
+      <div class="card col-lg-5 p-0">
+        <img class="card-img img-card1" src="./assets/img/phpcard.jpg">
+        <div class="card-img-overlay">          
+          <div class="texts lead card-color ">
+            <h4  class="card-title text-center ">Programação PHP</h4>
+            <br>
+            <p>Introdução a Linguagem de Programação PHP com o SGBD MySQL.</p>
+          </div>
+          <a class="btn btn-outline-light" href="php.html">Leia mais</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-5 p-0 ">
+        <img class="card-img img-card2" src="./assets/img/webcard.jpg">
+        <div class="card-img-overlay">
+          <div>            
+            <h4 class="card-title text-center">Últimas Notíticas</h4><br>
+            <ul> 
+              <li> Fábrica de Soluções realiza o projeto de site próprio! </li><br>
+              <li> Últimas semanas para finalizações dos projetos. </li><br>
+              <li> Em curso de Lógica de programação, alunos aprendem e relembram conceitos em C++.</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-around card-columns">
+
+      <div class="card col-lg-5 p-0">
+        <img class="card-img img-card3" src="./assets/img/cronograma.jpg">
+        <div class="card-img-overlay">
+          <div class="titles">            
+            <h4 class= "card-title">Cronograma 1º/2020</h4><br>
+            <ul> 
+              <li>  Lógica de Programação de Computadores </li><br>
+              <li>  Microsoft Power BI </li><br>
+              <li>  Conversando sobre Computação: hardware, lógica e desenvolvimento</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-lg-5 bg-light">
+        
+        <blockquote class="blockquote text-right">
+          <h4 class="card-depo card-title">Depoimento</h4><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam,
+            a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet.</p><br>
+          <footer class="blockquote-footer">por
+            <cite>Nome Pessoa</cite>
+          </footer>
+        </blockquote>
+      </div>
+
+    </div>
+    <!--Row -->
+  </div>
+  <!--/Container Cards-->
+
+  <!-- Rodapé -->
+  <footer class="mt-3">
+    <div id="rodape" class="container-fluid bg-light pt-2">
+      <div class="row">
+        <div class="pl-3">
+          <p>
+            © 2020 FapBetim - Pitágoras Unidade Betim - Av. Juscelino Kubitschek, 229 - Centro, Betim - MG - CEP 32600-225 <br>
+            Desenvolvido por: Mateus Andrade | Dhiullian Santos
+          </p>
+        </div>
+        <div class="ml-auto mt-1 mb-1 ">
+
+          <a href="https://www.pitagoras.com.br/" target="_blank" class="btn btn-outline-dark mr-2">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/school/faculdade-pitagoras/" target="_blank" class="btn btn-outline-dark mr-2">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://pt-br.facebook.com/pitagorasfaculdade/" target="_blank" class="btn btn-outline-dark mr-2">
+            <i class="fab fa-facebook"></i>
+          </a>    
+
+          <a href="https://www.youtube.com/user/pitagorasfaculdade/videos" target="_blank" class="btn btn-outline-dark mr-4">
+            <i class="fab fa-youtube"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- /Rodapé -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
